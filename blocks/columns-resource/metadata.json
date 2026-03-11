@@ -1,0 +1,41 @@
+{
+  "variantName": "columns-resource",
+  "baseBlock": "columns",
+  "version": "1.0.0",
+  "created": "2026-03-11T19:49:00.000Z",
+  "sourceContext": {
+    "originUrl": "https://spectrum.adobe.com",
+    "originPage": "Spectrum design system homepage",
+    "blockPosition": "middle"
+  },
+  "visualCharacteristics": {
+    "colorScheme": "light",
+    "density": "spacious",
+    "purpose": "get-started",
+    "imagePattern": "noimg"
+  },
+  "contentPattern": {
+    "structure": "heading + paragraph + links",
+    "buttonCount": 0,
+    "imageCount": 0,
+    "columnCount": 3
+  },
+  "reuseGuidance": {
+    "suitableFor": [
+      "resource link sections",
+      "three-column text-only layouts",
+      "getting started guides",
+      "feature category overviews"
+    ],
+    "notSuitableFor": [
+      "image-heavy column layouts",
+      "two-column layouts",
+      "product comparison grids"
+    ]
+  },
+  "usage": {
+    "pagesUsing": ["/content/index"],
+    "reuseCount": 1,
+    "lastUsed": "2026-03-11T19:49:00.000Z"
+  }
+}

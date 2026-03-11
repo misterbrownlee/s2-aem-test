@@ -1,0 +1,55 @@
+{
+  "templates": [
+    {
+      "name": "homepage",
+      "urls": [
+        "https://spectrum.adobe.com"
+      ],
+      "description": "Spectrum Adobe design system homepage - main landing page showcasing the design system",
+      "blocks": [
+        {
+          "name": "columns-resource",
+          "instances": [
+            ".Getstarted-public .afg-row"
+          ]
+        }
+      ],
+      "sections": [
+        {
+          "id": "section-1",
+          "name": "Hero",
+          "selector": "main .site-mainContainer",
+          "style": null,
+          "blocks": [],
+          "defaultContent": [
+            "h1.page-content-header_pageHeading__unR8R",
+            ".page-description_pageDescription__y3sFH p",
+            ".hero-image_heroContainer__Gt75r"
+          ]
+        },
+        {
+          "id": "section-2",
+          "name": "Get Started",
+          "selector": ".section_section__mQe7W.Getstarted-public",
+          "style": null,
+          "blocks": [
+            "columns-resource"
+          ],
+          "defaultContent": [
+            ".pagination_paginationContainer__ck0w0 a"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "documentation-page",
+      "urls": [
+        "https://spectrum.adobe.com/page/action-bar/",
+        "https://spectrum.adobe.com/page/voice-and-tone/",
+        "https://spectrum.adobe.com/page/color-fundamentals/"
+      ],
+      "description": "Spectrum documentation page - component specs, design guidelines, and foundation content with sections of text and images",
+      "blocks": []
+    }
+  ]
+}
