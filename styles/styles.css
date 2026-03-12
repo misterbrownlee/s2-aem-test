@@ -260,3 +260,18 @@ main .section.highlight {
 .section.hidden {
   display: none;
 }
+
+/* Responsive hero/illustration images - Spectrum uses desktop/mobile image pairs */
+main img[src*="mobile"] {
+  display: none;
+}
+
+@media (width < 900px) {
+  main img[src*="desktop"] {
+    display: none;
+  }
+
+  main img[src*="mobile"] {
+    display: block;
+  }
+}
