@@ -1,4 +1,4 @@
 mountpoints:
   /:
-    url: https://content.da.live/misterbrownlee/s2-aem-test/
+    url: https://raw.githubusercontent.com/misterbrownlee/s2-aem-test/main/
     type: markup
